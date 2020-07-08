@@ -20,9 +20,9 @@ const UserSchema = new mongoose.Schema(
   }
 );
 UserSchema.methods.toJSON = function (params) {
-  const game = this._doc;
-  delete game.__v;
-  return game;
+  const model = this._doc;
+  delete model.__v;
+  return model;
 };
 const User = mongoose.model("User", UserSchema);
 module.exports = User;

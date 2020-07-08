@@ -1,12 +1,23 @@
 {
   "name": "burako",
   "version": "0.0.1",
-  "description": "Backend part for burako game",
+  "description": "Backend part of Burako game",
   "main": "index.js",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.22"
+  },
+  "devDependencies": {
+    "mocha": "^8.0.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.4"
+  },
   "scripts": {
     "start":"node index.js",
     "dev":"nodemon index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -17,16 +28,5 @@
   "bugs": {
     "url": "https://github.com/ConradoZA/Burako-Game/issues"
   },
-  "homepage": "https://github.com/ConradoZA/Burako-Game#readme",
-  "devDependencies": {
-    "mocha": "^8.0.1",
-    "morgan": "^1.10.0",
-    "nodemon": "^2.0.4"
-  },
-  "dependencies": {
-    "bcryptjs": "^2.4.3",
-    "cors": "^2.8.5",
-    "express": "^4.17.1",
-    "mongoose": "^5.9.22"
-  }
+  "homepage": "https://github.com/ConradoZA/Burako-Game#readme"
 }

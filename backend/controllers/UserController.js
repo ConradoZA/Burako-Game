@@ -1,8 +1,6 @@
-const User = require("../models/User");
-// Versión ES6 por si ya funciona
-// import User from '../models/User';
+const User = require("../models/User.js");
 
-const UserControlller = {
-    // ToDo: todo
+const UserController = {
+  //ToDo: todo
 };
-module.exports = UserControlller;
+module.exports = UserController;
