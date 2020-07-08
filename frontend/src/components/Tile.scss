@@ -1,17 +1,39 @@
 .Card {
-    width: 100px;
-    height: 120px;
-    border: 1px solid black;
-    border-radius: 9px;
-    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.47);
-    font-size: 28px;
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    margin: 0;
-    background-color: white;
-    
-    h1 {
-        margin:10px 0;
-    }
+	width: 100px;
+	height: 130px;
+	// border: 1px solid black;
+	border-radius: 9px;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5), -2px -2px 5px 1px rgba(0, 0, 0, 0.6) inset,
+		2px 2px 5px rgba(255, 255, 255, 0.7) inset, 0 0 1px black;
+	font-size: 28px;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	margin: 0;
+	margin-left: 10px;
+	background-color: rgb(250, 250, 227);
+
+	h1 {
+		margin: 10px 0;
+	}
+}
+.Red {
+	color:red;
+	text-shadow: -1px -1px 1px black, 0px 0px 2px rgba(0, 0, 0, 0.5);
+}
+.Blue {
+	color:blue;
+	text-shadow: -1px -1px 1px black, 0px 0px 2px rgba(0, 0, 0, 0.5);
+}
+.Yellow {
+	color: yellow;
+	text-shadow: -1px -1px 1px black, 0px 0px 2px rgba(0, 0, 0, 0.5);
+}
+.Black {
+	color: black;
+	text-shadow: -1px -1px 1px black, 0px 0px 2px rgba(0, 0, 0, 0.5);
+}
+.Green {
+	color: green;
+	text-shadow: -1px -1px 1px black, 0px 0px 2px rgba(0, 0, 0, 0.5);
 }

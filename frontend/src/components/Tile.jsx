@@ -6,7 +6,7 @@ import "./Tile.scss";
 export const Tile = (props) => {
   return (
     <Card className="Card" id={props.tile.id}>
-      <h1 key={props.tile.id} style={{ color: props.tile.color }}>
+      <h1 className={props.tile.color}>
         {props.tile.number === "Joker" ? <RedditOutlined /> : props.tile.number}
       </h1>
     </Card>

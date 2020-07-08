@@ -1,6 +1,9 @@
 {
-  "name": "frontend",
+  "name": "burako",
   "version": "0.1.0",
+  "description": "Frontend part of Burako game",
+  "author": "Conrado & Jenny",
+  "license": "ISC",
   "private": true,
   "dependencies": {
     "@ant-design/icons": "^4.1.0",
