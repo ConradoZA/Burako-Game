@@ -1,5 +1,5 @@
 import React from 'react';
-import Tiles from '../Components/Tiles';
+import Tiles from '../components/Tiles';
 
 
 export const Game = () => {
